@@ -10,8 +10,8 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Projeto MEUI')
-    .setDescription('Projeto do Blog Pessoal')
-    .setContact('Generation Brasil', 'www.genbr.com.br', 'kevintor20506@gmail.com')
+    .setDescription('App criada para o projeto MEUI')
+    .setContact('Criada desde', 'https://github.com/kevintor30/projeto-meui', 'kevintor20506@gmail.com')
     .setVersion('1.0')
     .addBearerAuth()
     .build()
